@@ -1,6 +1,5 @@
 [
   {
-    "samples": [
       {
         "name": "HD (MP4, H264)",
         "uri": "https://storage.googleapis.com/wvmedia/clear/h264/tears/tears.mpd"
@@ -25,6 +24,5 @@
         "name": "UHD (WebM, VP9)",
         "uri": "https://storage.googleapis.com/wvmedia/clear/vp9/tears/tears_uhd.mpd"
       }
-    ]
   }
 ]
