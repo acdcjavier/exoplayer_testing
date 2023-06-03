@@ -50,13 +50,6 @@
         "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=2015_tears&provider=widevine_test"
       },
       {
-        "name": "Widevine DASH (MP4, H264) - Secure -> Clear -> Secure (cenc)",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/widevine/tears_enc_clear_enc.mpd",
-        "drm_scheme": "widevine",
-        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=2015_tears&provider=widevine_test",
-        "drm_session_for_clear_content": true
-      },
-      {
         "name": "Widevine DASH (WebM, VP9) - HD (cenc, full-sample)",
         "uri": "https://storage.googleapis.com/wvmedia/cenc/vp9/tears/tears.mpd",
         "drm_scheme": "widevine",
@@ -123,12 +116,6 @@
         "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_HW_SECURE_ALL&provider=widevine_test"
       },
       {
-        "name": "Widevine DASH (policy tests) - 30s license (fails at ~30s)",
-        "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
-        "drm_scheme": "widevine",
-        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_CAN_RENEW_FALSE_LICENSE_30S_PLAYBACK_30S&provider=widevine_test"
-      },
-      {
         "name": "Widevine DASH (policy tests) - HDCP not required",
         "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
         "drm_scheme": "widevine",
@@ -157,6 +144,19 @@
         "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
         "drm_scheme": "widevine",
         "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_SW_SECURE_CRYPTO_HDCP_V2_2&provider=widevine_test"
+      },
+      {
+        "name": "Widevine DASH (MP4, H264) - Secure -> Clear -> Secure (cenc)",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/widevine/tears_enc_clear_enc.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=2015_tears&provider=widevine_test",
+        "drm_session_for_clear_content": true
+      },
+      {
+        "name": "Widevine DASH (policy tests) - 30s license (fails at ~30s)",
+        "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_CAN_RENEW_FALSE_LICENSE_30S_PLAYBACK_30S&provider=widevine_test"
       },
       {
         "name": "Widevine DASH (policy tests) - HDCP no digital output",
