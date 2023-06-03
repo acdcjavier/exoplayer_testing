@@ -182,6 +182,7 @@
             "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mp4/frame-counter-one-hour.mp4",
             "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpostlongpod&cmsid=496&vid=short_tencue&correlator="
           },
+	  },
       {
         "name": "IMA DAI streams - HLS VOD: Demo (skippable pre/post), single ads [30 s]",
         "uri": "ssai://dai.google.com/?contentSourceId=2483977&videoId=ima-vod-skippable-test&format=2&adsId=1"
@@ -267,6 +268,7 @@
           {
             "uri": "https://html5demos.com/assets/dizzy.mp4"
           },
+	  },
       {
         "name": "Playlists - Cats -> Dogs",
         "playlist": [
